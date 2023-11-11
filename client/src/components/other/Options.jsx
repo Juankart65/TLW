@@ -8,7 +8,7 @@ export default function Options() {
 
     {
       title: "Exploración de las Ideas Profundas: Características y Evolución Histórica",
-      img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/Colegio/l3g2frekvhclak7yyp5a`,
+      img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/qpabpq5xji87rtfyxuvg`,
     },
     {
       title: "La Danza de las Palabras: Historia y Estilo del Texto Literario",
