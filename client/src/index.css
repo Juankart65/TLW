@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  /* background-image: url("./assets/img/fondo.jpg"); */
+  background-attachment: fixed;
+  background: linear-gradient(#FFA07A, #FF6347);
+  position: fixed;
+  /* Fija el fondo en la posición especificada */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  /* Ajusta la transparencia, donde 1 es opaco y 0 es transparente */
+  z-index: -1;
+  /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
