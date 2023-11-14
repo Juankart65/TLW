@@ -7,7 +7,7 @@ export default function Options() {
   const list = [
 
     {
-      title: "Exploración de las Ideas Profundas: Características y Evolución Histórica",
+      title: "Exploración teórica de 'El Texto Teórico' mediante análisis",
       img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/qpabpq5xji87rtfyxuvg`,
     },
     {
@@ -17,6 +17,18 @@ export default function Options() {
     {
       title: "De Plumas a Píxeles: La Evolución Ortográfica a lo Largo del Tiempo",
       img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/a8dlubzkytkljfb8ndqt`,
+    },
+    {
+      title: "El uso de la H en la escritura",
+      img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/sci19wnvothtnofq1yy8`,
+    },
+    {
+      title: "Ejemplos",
+      img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/keywzrj2xcp23oa8o2nt`,
+    },
+    {
+      title: "Bibliografías",
+      img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/xq8v21idyfiulsnpokvi`,
     },
   ];
 
