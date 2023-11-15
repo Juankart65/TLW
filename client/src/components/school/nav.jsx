@@ -17,7 +17,7 @@ export default function App() {
         </div>
         <div>
           <Link className="flex flex-col font-bold text-inherit text-2xl text-blue-500" href="/">
-            Mundo Literario
+            Texto Ortográfico
           </Link>
         </div>
 
