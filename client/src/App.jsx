@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import Nav from "./components/school/nav";
 import Home from './pages/Home';
-import Teorico from './pages/Teorico';
-import Literario from "./pages/Literario"
+import UsoG from './pages/UsoG';
+import UsoH from "./pages/UsoH"
+import UsoJ from "./pages/UsoJ"
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/exploracion_teorica_de_'el_texto_teorico'_mediante_analisis" element={<Teorico />} />
-            <Route path="/la_danza_de_las_palabras:_historia_y_estilo_del_texto_literario" element={<Literario />} />
+            <Route path="/exploracion_de_'el_uso_de_la_g'_mediante_ejemplos" element={<UsoG />} />
+            <Route path="/exploracion_de_'el_uso_de_la_h'_mediante_ejemplos" element={<UsoH />} />
+            <Route path="/exploracion_de_'el_uso_de_la_j'_mediante_ejemplos" element={<UsoJ />} />
           </Routes>
         </BrowserRouter>
       </main>
