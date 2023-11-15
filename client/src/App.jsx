@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import UsoG from './pages/UsoG';
 import UsoH from "./pages/UsoH"
 import UsoJ from "./pages/UsoJ"
+import Bibliografia from "./pages/Bibliografias"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/exploracion_de_'el_uso_de_la_g'_mediante_ejemplos" element={<UsoG />} />
             <Route path="/exploracion_de_'el_uso_de_la_h'_mediante_ejemplos" element={<UsoH />} />
             <Route path="/exploracion_de_'el_uso_de_la_j'_mediante_ejemplos" element={<UsoJ />} />
+            <Route path="/bibliografias" element={<Bibliografia />} />
           </Routes>
         </BrowserRouter>
       </main>

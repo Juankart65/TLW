@@ -34,3 +34,26 @@ body::before {
   top: 0;
   left: 0;
 }
+
+.citation {
+  margin-top: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #2d3748;
+  /* Slate color */
+  font-family: serif;
+}
+
+.cite {
+  font-style: italic;
+}
+
+.link {
+  color: #2867a3;
+  /* Blue color */
+  text-decoration: underline;
+}
