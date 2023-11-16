@@ -7,15 +7,15 @@ export default function Options() {
   const list = [
 
     {
-      title: "Exploración de 'El uso de la G' mediante ejemplos",
+      title: "El texto ortográfico",
       img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/qpabpq5xji87rtfyxuvg`,
     },
     {
-      title: "Exploración de 'El uso de la J' mediante ejemplos",
+      title: "Autores",
       img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/obtcr77zopjkjxryllyq`,
     },
     {
-      title: "Exploración de 'El uso de la H' mediante ejemplos",
+      title: "Exploración de 'El uso de las Letras' mediante ejemplos",
       img: `https://res.cloudinary.com/dsnq0pvey/image/upload/f_auto,q_auto/v1/MundoLiterario/a8dlubzkytkljfb8ndqt`,
     },
     {
